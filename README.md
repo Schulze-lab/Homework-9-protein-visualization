@@ -8,9 +8,9 @@ You can use any in the Protein Data Bank (PDB) as your starting point, since Chi
 2)	Highlight a type of secondary structure (α-helix or β-sheet), e.g. using a different color, or zoomed in view.
 3)	Show the hydrogen bonds for your selected secondary structure.
 4)	Focus on the interaction between your selected protein and its interaction partner. Use at least two of the following characteristics to visualize the interaction:
-4.a)	H-bonds
-4.b)	Hydrophobicity
-4.c)	Charge
+a)	H-bonds
+b)	Hydrophobicity
+c)	Charge
 5)	Use a script (e.g. Python) that can be executed within ChimeraX to solve these tasks. Make sure to comment your code, so that others can read and understand it easily. 
 6)	Commit all your scripts, and results to your GitHub Classroom repository.
 # Submission
