@@ -1,16 +1,20 @@
-# Assignments Week 7
+# Assignments Week 9
 # Introduction
-The goal of this assignment is to perform a protein database search on a result file from an HPLC-MS/MS run. This search should identify a range of peptides and their corresponding proteins.
+The goal of this assignment is to visualize a protein and its interaction partner using ChimeraX. This will ideally help you to get more familiar with databases for protein structures, different modes of visualizing protein structures, differences between the levels of structures, and with interactions between proteins and other molecules.
 # Input data
-You can use the .mzML file for Haloferax volcanii from the previous assignments, or you can use an MS file that’s relevant to your group project. In addition, you will need a .fasta file for the corresponding reference proteome (downloaded e.g. from UniProt).
-Tasks and output files
-1)	Generate a target-decoy database and use it, together with the .mzML MS file, as input for a protein database search (using a tool of your choice, e.g. Ursgal, SearchGUI, MaxQuant, FragPipe, …).
-2)	Use statistical postprocessing (e.g. Percolator, Philosopher, MaxQuant, …) to calculate FDRs and/or PEPs for the peptide-spectrum matches generated in 1). Filter for an FDR (or PEP) of 1%.
-3)	Count the number of identified peptides and their corresponding proteins based on the result file generated.
-4)	Make sure to comment your code, so that others can read and understand it easily. 
-5)	Create a README file describing how to run your code. Include requirements (e.g. Python packages that need to be installed) in that description, or as a separate requirements.txt file.
-6)	Commit all your input files, scripts, and result files to your GitHub Classroom repository.
+You can use any in the Protein Data Bank (PDB) as your starting point, since ChimeraX can directly fetch protein structures from PDB. You can use the search function on the PDB website to identify a structure that you want to work with (e.g. a receptor-ligand interaction, or a DNA-binding protein, or a protein-protein interaction).
+# Tasks and output files
+1)	Open a PDB protein structure in ChimeraX.
+2)	Highlight a type of secondary structure (α-helix or β-sheet), e.g. using a different color, or zoomed in view.
+3)	Show the hydrogen bonds for your selected secondary structure.
+4)	Focus on the interaction between your selected protein and its interaction partner. Use at least two of the following characteristics to visualize the interaction:
+4.a)	H-bonds
+4.b)	Hydrophobicity
+4.c)	Charge
+5)	Use a script (e.g. Python) that can be executed within ChimeraX to solve these tasks. Make sure to comment your code, so that others can read and understand it easily. 
+6)	Commit all your scripts, and results to your GitHub Classroom repository.
 # Submission
-You must submit the assignment through GitHub Classroom by 8 am Mar 2 to get full credit. 
+You must submit the assignment through GitHub Classroom by 8 am Mar 30 to get full credit. 
 # Bonus Credit
-7)	Perform a de novo search on the same MS file and compare the results to the results of the protein database search. What is the percentage of peptides identified by the de novo search that is not part of the Haloferax volcanii proteome?
+7)	Use ChimeraX to create a video that illustrates changes in a protein’s structure upon binding its interaction partner, e.g. the transition between a bound and unbound state.
+
